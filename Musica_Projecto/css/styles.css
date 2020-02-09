@@ -1,0 +1,335 @@
+/* Reiniciar */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/* Estilo Menú */
+html, body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
+h1, h2, h3{
+  padding-bottom: 20px;
+/*  color: purple;*/
+}
+p{
+  margin: 10px 0;
+}
+/* Clases General */
+/* container mantendrá el contenido centrado y con un máximo de ancho */
+.container{
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+.text-primary{
+  color: #403e06;
+}
+.text-primary1{
+  color: #152ABC;
+}
+.text-primary2{
+  color: #A9F9D5;
+}
+.lead{
+  font-size: 20px;
+}
+.btn{
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #403e06;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover{
+  background: #403e06 ;
+}
+.btn-light{
+  background: #f4f4f4;
+  color: #215b33;
+}
+.bg-dark{
+  background: #0a0a00;
+  color: #fff;
+}
+.bg-light{
+  background:url('/Imagenes/ultra.jpg') no-repeat center center/cover;
+  color: #215b33;
+  height:auto;
+}
+.bg-video{
+  background: #000000;
+}
+
+.bg-eric{
+  background:url('/Imagenes/prydz.jpg') no-repeat center center/cover;
+  color: #ffffff;
+  font-size: 25px;
+  height:auto;
+}
+.bg-deadmau5{
+  background:url('/Imagenes/d5.jpg') no-repeat center center/cover;
+  color: #ffffff;
+  font-size: 25px;
+  height:auto;
+}
+.bg-Avicii{
+  background:url('/Imagenes/Avicii9.jpg') no-repeat center center/cover;
+  color: #000000;
+  font-size: 25px;
+  height:auto;
+}
+.bg-edc{
+  background:url('/Imagenes/shelter4.jpg') no-repeat center center/cover;
+  color: #215b33;
+  height:auto;
+}
+.bg-tomorrowland{
+  background:url('/Imagenes/tomorrowland.jpg') no-repeat center center/cover;
+  color: #215b33;
+  height:auto;
+}
+.bg-cuadro1{
+ background: url('/Imagenes/Avicii9.jpg') no-repeat center center/cover;
+  height: auto;
+}
+.bg-primary{
+  background: url('/Imagenes/Avicii6.jpg') no-repeat center center/cover;
+  color: #215b33;
+  font-size: 10px;
+}
+.clr{
+  clear: both;
+}
+.l-heading{
+  font-size: 40px;
+}
+.l-heading1{
+  font-size: 40px;
+  text-align: center;
+  color: #dfe32a;
+}
+/* padding*/
+.py-1{
+  padding: 10px 0;
+}
+.py-2{
+  padding: 20px 0;
+}
+.py-3{
+  padding: 100px 0;
+}
+.py-4{
+  padding: 300px 0;
+}
+/* 1- navbar */
+#navbar{
+  background: url('/Imagenes/shelter3.jpg') no-repeat center center/cover;
+  color: #aaa;
+  overflow: auto;
+}
+#navbar a{
+  color: #403e06;
+}
+#navbar h1{
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul{
+  list-style: none;
+  float: right;
+}
+#navbar ul li{
+  float: left;
+}
+#navbar ul li a{
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+  border-color: #3d8e33;
+  background: #f4f4f4;
+  color: #403e06;
+}
+/* Bienvenida */
+#welcome{
+  background: url('/Imagenes/shelter3.jpg') no-repeat center center/cover;
+/*  width: 100%; */
+  height: 400px;
+}
+#welcome .welcome-content{
+  color: #fff;
+  text-align: justify;
+  padding-top: 170px;
+}
+#welcome1 .welcome-content1{
+  color: #0a0a00;
+  text-align: justify;
+  padding-top: 20px;
+}
+#welcome .welcome-content h1{
+  font-size: 60px;
+  line-height: 1.2em;
+}
+#welcome .welcome-content p{
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+#welcome .container{
+  overflow: hidden !important;
+}
+/* Información Principal */
+#home-info{
+  height: 350px;
+}
+#home-info .info-img{
+  float: center;
+  width: 0%;
+  background: url('https://via.placeholder.com/800x800') no-repeat center cover;
+  min-height: 0%;
+}
+#home-info .info-content{
+  float: right;
+  width: 50%;
+  height: 85%;
+  text-align: center;
+  padding: 40px 30px;
+  overflow: hidden;
+}
+#home-info .info-content1{
+  float: left;
+  width: 50%;
+  height: 70%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+#home-info .info-content p{
+  padding-bottom: 30px;
+}
+/* Información secundaria */
+.box2{
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: right;
+}
+.box3{
+  float: left;
+  width: 33.3%;
+  padding: 117px;
+  text-align: right;
+}
+.box{
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i{
+  margin-bottom: 10px;
+}
+/*Acerca de */
+#about-info .info-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right img{
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+#about-info .info-left{
+  float: left;
+  width:50%;
+  min-height: 100%;
+}
+/* Testimonios */
+#testimonials{
+  height: 600px;
+  background: url('/Imagenes/edc.jpg')no-repeat center center/cover;
+  padding-top: 100px;
+}
+#practica{
+  height: auto;
+  padding-top: 100px;
+}
+#testimonials h2{
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#testimonials .testimonial{
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+#testimonials .testimonial img{
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+/* Forma de Contacto */
+#contact-form .form-group{
+  margin-bottom: 20px;
+}
+#contact-form label{
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+#contact-form textarea{
+  height: 200px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+  outline: none;
+  border-color: #5BBF21;
+}
+/* Pie de página */
+#main-footer{
+  text-align: center;
+  background: url('/Imagenes/shelter3.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 20px;
+}
+#secondary-footer{
+  text-align: center;
+  background: url('/Imagenes/ultralogo.jpg') no-repeat center center/cover;
+  padding: 1px;
+}
+#third-footer{
+  text-align: center;
+  background: url('/Imagenes/shelter4.jpg') no-repeat center center/cover;
+  padding: 1px;
+}
+#four-footer{
+  text-align: center;
+  background: url('/Imagenes/tomorrowland.jpg') no-repeat center center/cover;
+  opacity: 85%;
+  padding: 1px;
+}
+#dj-footer{
+  text-align: center;
+  background: url('/Imagenes/shelter5.jpg') no-repeat center center/cover;
+  padding: 1px;
+}
