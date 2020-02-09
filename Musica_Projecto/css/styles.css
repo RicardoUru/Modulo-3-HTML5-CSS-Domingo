@@ -76,13 +76,13 @@ p{
   height:auto;
 }
 .bg-deadmau5{
-  background:url('./Imagenes/d5.jpg') no-repeat center center/cover;
+  background:url('../Imagenes/d5.jpg') no-repeat center center/cover;
   color: #ffffff;
   font-size: 25px;
   height:auto;
 }
 .bg-Avicii{
-  background:url('./Imagenes/Avicii9.jpg') no-repeat center center/cover;
+  background:url('../Imagenes/Avicii9.jpg') no-repeat center center/cover;
   color: #000000;
   font-size: 25px;
   height:auto;
