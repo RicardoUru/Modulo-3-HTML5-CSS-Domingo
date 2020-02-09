@@ -61,7 +61,7 @@ p{
   color: #fff;
 }
 .bg-light{
-  background:url('/Imagenes/ultra.jpg') no-repeat center center/cover;
+  background:url('./Imagenes/ultra.jpg') no-repeat center center/cover;
   color: #215b33;
   height:auto;
 }
@@ -70,39 +70,39 @@ p{
 }
 
 .bg-eric{
-  background:url('/Imagenes/prydz.jpg') no-repeat center center/cover;
+  background:url('./Imagenes/prydz.jpg') no-repeat center center/cover;
   color: #ffffff;
   font-size: 25px;
   height:auto;
 }
 .bg-deadmau5{
-  background:url('/Imagenes/d5.jpg') no-repeat center center/cover;
+  background:url('./Imagenes/d5.jpg') no-repeat center center/cover;
   color: #ffffff;
   font-size: 25px;
   height:auto;
 }
 .bg-Avicii{
-  background:url('/Imagenes/Avicii9.jpg') no-repeat center center/cover;
+  background:url('./Imagenes/Avicii9.jpg') no-repeat center center/cover;
   color: #000000;
   font-size: 25px;
   height:auto;
 }
 .bg-edc{
-  background:url('/Imagenes/shelter4.jpg') no-repeat center center/cover;
+  background:url('./Imagenes/shelter4.jpg') no-repeat center center/cover;
   color: #215b33;
   height:auto;
 }
 .bg-tomorrowland{
-  background:url('/Imagenes/tomorrowland.jpg') no-repeat center center/cover;
+  background:url('./Imagenes/tomorrowland.jpg') no-repeat center center/cover;
   color: #215b33;
   height:auto;
 }
 .bg-cuadro1{
- background: url('/Imagenes/Avicii9.jpg') no-repeat center center/cover;
+ background: url('./Imagenes/Avicii9.jpg') no-repeat center center/cover;
   height: auto;
 }
 .bg-primary{
-  background: url('/Imagenes/Avicii6.jpg') no-repeat center center/cover;
+  background: url('./Imagenes/Avicii6.jpg') no-repeat center center/cover;
   color: #215b33;
   font-size: 10px;
 }
@@ -132,7 +132,7 @@ p{
 }
 /* 1- navbar */
 #navbar{
-  background: url('/Imagenes/shelter3.jpg') no-repeat center center/cover;
+  background: url('./Imagenes/shelter3.jpg') no-repeat center center/cover;
   color: #aaa;
   overflow: auto;
 }
@@ -163,7 +163,7 @@ p{
 }
 /* Bienvenida */
 #welcome{
-  background: url('/Imagenes/shelter3.jpg') no-repeat center center/cover;
+  background: url('./Imagenes/shelter3.jpg') no-repeat center center/cover;
 /*  width: 100%; */
   height: 400px;
 }
@@ -259,7 +259,7 @@ p{
 /* Testimonios */
 #testimonials{
   height: 600px;
-  background: url('/Imagenes/edc.jpg')no-repeat center center/cover;
+  background: url('./Imagenes/edc.jpg')no-repeat center center/cover;
   padding-top: 100px;
 }
 #practica{
@@ -308,28 +308,28 @@ p{
 /* Pie de página */
 #main-footer{
   text-align: center;
-  background: url('/Imagenes/shelter3.jpg') no-repeat center center/cover;
+  background: url('./Imagenes/shelter3.jpg') no-repeat center center/cover;
   color: #fff;
   padding: 20px;
 }
 #secondary-footer{
   text-align: center;
-  background: url('/Imagenes/ultralogo.jpg') no-repeat center center/cover;
+  background: url('./Imagenes/ultralogo.jpg') no-repeat center center/cover;
   padding: 1px;
 }
 #third-footer{
   text-align: center;
-  background: url('/Imagenes/shelter4.jpg') no-repeat center center/cover;
+  background: url('./Imagenes/shelter4.jpg') no-repeat center center/cover;
   padding: 1px;
 }
 #four-footer{
   text-align: center;
-  background: url('/Imagenes/tomorrowland.jpg') no-repeat center center/cover;
+  background: url('./Imagenes/tomorrowland.jpg') no-repeat center center/cover;
   opacity: 85%;
   padding: 1px;
 }
 #dj-footer{
   text-align: center;
-  background: url('/Imagenes/shelter5.jpg') no-repeat center center/cover;
+  background: url('./Imagenes/shelter5.jpg') no-repeat center center/cover;
   padding: 1px;
 }
